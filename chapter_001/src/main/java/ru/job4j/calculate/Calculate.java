@@ -2,7 +2,9 @@ package ru.job4j.calculate;
 /**
 * Calculate.
 *
-*@author Viktor Kusliy (viktor.kusliy@gmail.com)
+* @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com)
+* @version 1.0
+* @since 21.09.2018
 */
 public class Calculate{
 	
@@ -14,6 +16,17 @@ public class Calculate{
 	public static void main(String[] args){
 	System .out.println("Hello World");
 	
+	}
+	
+	
+	/**
+	* Metod echo.
+	* @ param name Your name.
+	* @ return Echo plus your name.
+	*/
+	
+	public String echo (String name){
+		return "Echo, echo, echo : " + name;
 	}
 
 	
