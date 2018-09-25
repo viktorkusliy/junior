@@ -20,7 +20,7 @@ public class Calculate {
 	
 	
 	/**
-	* Metod echo.
+	* Method echo.
 	* @ param name Your name.
 	* @ return Echo plus your name.
 	*/
