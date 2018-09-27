@@ -12,9 +12,7 @@ public class Converter {
      * @return euros.
      */
     public int rubleToEuro(int value) {
-        int costOfEuro = 70;
-        int result = value / costOfEuro;
-        return result;
+        return value / 70;
     }
 
     /**
@@ -23,9 +21,7 @@ public class Converter {
      * @return dollars.
      */
     public int rubleToDollar(int value) {
-        int costOfDollar = 60;
-        int result = value / costOfDollar;
-        return result;
+        return value / 60;
     }
 
     /**
@@ -34,9 +30,7 @@ public class Converter {
      * @return rubles.
      */
     public int euroToRuble(int value) {
-        int costOfEuro = 70;
-        int result = value * costOfEuro;
-        return result;
+        return value * 70;
     }
 
     /**
@@ -45,9 +39,7 @@ public class Converter {
      * @return rubles.
      */
     public int dollarToRuble(int value) {
-        int costOfEuro = 60;
-        int result = value * costOfEuro;
-        return result;
+        return value * 60;
     }
 
 
