@@ -14,19 +14,11 @@ public class Turn {
      * @return Inverted array.
      */
     public int[] back(int[] array) {
-        if (array.length % 2 == 0) {
             for (int index = 0; index < array.length / 2; index++) {
                 int temp = array[index];
                 array[index] = array[array.length - index - 1];
                 array[array.length - index - 1] = temp;
             }
-        } else {
-            for (int index = 0; index < array.length / 2 + 1; index++) {
-                int temp = array[index];
-                array[index] = array[array.length - index - 1];
-                array[array.length - index - 1] = temp;
-            }
-        }
         return array;
     }
 }
