@@ -8,8 +8,8 @@ import static org.junit.Assert.*;
 /**
  * Test of building a pyramid of a given height.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).
- * @version 1.0.
- * @since 09.10.2018.
+ * @version 2.0.
+ * @since 10.10.2018.
  */
 public class PaintTest {
     @Test
