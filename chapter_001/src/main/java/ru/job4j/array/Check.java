@@ -3,8 +3,8 @@ package ru.job4j.array;
 /**
  * The array is filled with true or false.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).
- * @version 1.0.
- * @since 11.10.2018.
+ * @version 2.0.
+ * @since 12.10.2018.
  */
 public class Check {
 
@@ -14,11 +14,15 @@ public class Check {
      * @return True or false.
      */
     public boolean mono(boolean[] data) {
-        for (boolean value : data) {
-            if (!value) {
-                return false;
+        boolean result = false;
+        for (int index = 0; index < data.length - 1; index++) {
+            if (data[index] == data[index + 1]) {
+                result = true;
+            } else {
+                result = false;
+                break;
             }
         }
-        return true;
+        return result;
     }
 }

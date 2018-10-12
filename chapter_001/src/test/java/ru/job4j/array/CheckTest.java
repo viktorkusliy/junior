@@ -7,8 +7,8 @@ import static org.junit.Assert.assertThat;
 /**
  * Test to determine the array is filled with true or false.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).
- * @version 1.0.
- * @since 11.10.2018.
+ * @version 2.0.
+ * @since 12.10.2018.
  */
 public class CheckTest {
 
@@ -23,7 +23,7 @@ public class CheckTest {
     @Test
     public void whenDataNotMonoByTrueThenFalse() {
         Check check = new Check();
-        boolean[] input = new boolean[] {true, false, true};
+        boolean[] input = new boolean[] {true, false, true, false};
         boolean result = check.mono(input);
         assertThat(result, is(false));
     }
@@ -31,7 +31,7 @@ public class CheckTest {
     @Test
     public void whenDataMonoByFalseThenTrue() {
         Check check = new Check();
-        boolean[] input = new boolean[] {false, false, false};
+        boolean[] input = new boolean[] {false, false, false, false};
         boolean result = check.mono(input);
         assertThat(result, is(true));
     }
