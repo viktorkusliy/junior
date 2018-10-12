@@ -7,7 +7,7 @@ import static org.junit.Assert.assertThat;
 /**
  * Test to determine the array is filled with true or false.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).
- * @version 2.0.
+ * @version 3.0.
  * @since 12.10.2018.
  */
 public class CheckTest {
