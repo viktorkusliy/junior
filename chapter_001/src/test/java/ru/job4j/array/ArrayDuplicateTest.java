@@ -19,6 +19,14 @@ public class ArrayDuplicateTest {
         String[] result = duplicate.remove(input);
         String[] excepted = {"tiger", "pet", "dog", "cat"};
         assertThat(result, is(excepted));
+    }
 
+    @Test
+    public void whenRemove() {
+        ArrayDuplicate duplicate = new ArrayDuplicate();
+        String[] input = {"tiger", "tiger", "tiger", "tiger", "tiger", "tiger", "tiger"};
+        String[] result = duplicate.remove(input);
+        String[] excepted = {"tiger"};
+        assertThat(result, is(excepted));
     }
 }

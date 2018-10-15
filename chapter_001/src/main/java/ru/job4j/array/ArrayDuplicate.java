@@ -22,6 +22,7 @@ public class ArrayDuplicate {
                 if (array[out].equals(array[in])) {
                     array[in] = array[unique - 1];
                     unique--;
+                    in--;
                 }
             }
         }
