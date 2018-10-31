@@ -1,9 +1,7 @@
 package ru.job4j.array;
-
 import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
-
 /**
  * Test to determine the array is filled with true or false.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).
@@ -11,7 +9,6 @@ import static org.junit.Assert.assertThat;
  * @since 12.10.2018.
  */
 public class CheckTest {
-
     @Test
     public void whenDataMonoByTrueThenTrue() {
         Check check = new Check();
@@ -19,7 +16,6 @@ public class CheckTest {
         boolean result = check.mono(input);
         assertThat(result, is(true));
     }
-
     @Test
     public void whenDataNotMonoByTrueThenFalse() {
         Check check = new Check();
@@ -27,7 +23,6 @@ public class CheckTest {
         boolean result = check.mono(input);
         assertThat(result, is(false));
     }
-
     @Test
     public void whenDataMonoByFalseThenTrue() {
         Check check = new Check();

@@ -1,5 +1,4 @@
 package ru.job4j.loop;
-
 /**
  * Factorial calculation.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).
@@ -7,7 +6,6 @@ package ru.job4j.loop;
  * @since 07.10.2018.
  */
 public class Factorial {
-
     /**
      * Method of calculating the factorial of a given number
      * @param value Number.
@@ -20,5 +18,4 @@ public class Factorial {
         }
         return result;
     }
-
 }

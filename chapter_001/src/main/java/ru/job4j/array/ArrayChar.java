@@ -1,5 +1,4 @@
 package ru.job4j.array;
-
 /**
  * Class to check if the word starts with a prefix or not.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).
@@ -8,11 +7,9 @@ package ru.job4j.array;
  */
 public class ArrayChar {
     private char[] data;
-
     public ArrayChar(String line) {
         this.data = line.toCharArray();
     }
-
     /**
      * Verification method that the word begins with the prefix.
      * @param prefix Prefix.

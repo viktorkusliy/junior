@@ -1,5 +1,4 @@
 package ru.job4j.array;
-
 /**
  * The array is filled with true or false.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).
@@ -7,7 +6,6 @@ package ru.job4j.array;
  * @since 12.10.2018.
  */
 public class Check {
-
     /**
      * Method to determine the array is filled with true or false.
      *

@@ -1,5 +1,4 @@
 package ru.job4j.condition;
-
 /**
  * Class to calculate the area of a triangle.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).
@@ -10,13 +9,11 @@ public class Triangle {
     private Point a;
     private Point b;
     private Point c;
-
     public Triangle(Point a, Point b, Point c) {
         this.a = a;
         this.b = b;
         this.c = c;
     }
-
     /**
      * Method of calculating the distance between the current point and the given.
      * @param ab Distance between points a and b.
@@ -26,14 +23,12 @@ public class Triangle {
      */
     public double semiperimeter(double ab, double ac, double bc) {
         return (ab + ac + bc) / 2;
-
     }
-
     /**
      * Method for calculating the area of a triangle.
      * @return Area of a triangle.
      */
-    public double areaOfTriangle() {
+    public double area() {
         double area = -1;
         double ab = this.a.distanceTo(this.b);
         double ac = this.a.distanceTo(this.c);
@@ -44,7 +39,6 @@ public class Triangle {
         }
         return area;
     }
-
     /**
      * Method for calculating the possibility of constructing a triangle on given sides.
      * @param ab Side length ab.
@@ -53,7 +47,7 @@ public class Triangle {
      * @return There is a possibility or not.
      */
     private boolean exist(double ab, double ac, double bc) {
-        return (ab + ac > bc) & (ab + bc > ac) & (ac + bc > ab) ? true : false;
+        return (ab + ac > bc) & (ab + bc > ac) & (ac + bc > ab);
     }
 
 

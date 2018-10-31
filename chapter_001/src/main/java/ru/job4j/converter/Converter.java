@@ -1,11 +1,8 @@
 package ru.job4j.converter;
-
 /**
  * This is a currency converter.
  */
-
 public class Converter {
-
     /**
      * Convert rubles into euros.
      * @param value rubles.
@@ -14,7 +11,6 @@ public class Converter {
     public int rubleToEuro(int value) {
         return value / 70;
     }
-
     /**
      * Convert rubles into dollars.
      * @param value rubles.
@@ -23,7 +19,6 @@ public class Converter {
     public int rubleToDollar(int value) {
         return value / 60;
     }
-
     /**
      * Convert euros into rubles.
      * @param value euros.
@@ -32,7 +27,6 @@ public class Converter {
     public int euroToRuble(int value) {
         return value * 70;
     }
-
     /**
      * Convert dollars into rubles.
      * @param value dollars.

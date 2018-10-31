@@ -1,5 +1,4 @@
 package ru.job4j.array;
-
 /**
  * Class to search for an element of an array by index.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).
@@ -7,7 +6,6 @@ package ru.job4j.array;
  * @since 10.10.2018.
  */
 public class FindLoop {
-
     /**
      * Method to search for an element of an array by index.
      * @param data Array in which to search for an element.

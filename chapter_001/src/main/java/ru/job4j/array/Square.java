@@ -1,5 +1,4 @@
 package ru.job4j.array;
-
 /**
  * Class to fill the array with squares of numbers.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).
@@ -7,7 +6,6 @@ package ru.job4j.array;
  * @since 10.10.2018.
  */
 public class Square {
-
     /**
      * Method to fill the array with squares of numbers.
      * @param bound Array capacity.

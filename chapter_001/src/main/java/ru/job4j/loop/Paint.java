@@ -1,7 +1,5 @@
 package ru.job4j.loop;
-
 import java.util.function.BiPredicate;
-
 /**
  * Building a pyramid.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).
@@ -9,7 +7,6 @@ import java.util.function.BiPredicate;
  * @since 10.10.2018.
  */
 public class Paint {
-
     /**
      * Building the right side of the pyramid.
      * @param height Pyramid height.
@@ -22,7 +19,6 @@ public class Paint {
                 (row, column) -> row >= column
         );
     }
-
     /**
      * Building the left side of the pyramid.
      * @param height Pyramid height.
@@ -35,7 +31,6 @@ public class Paint {
                 (row, column) -> row >= height - column - 1
         );
     }
-
     /**
      * Building the whole pyramid.
      * @param height Pyramid height.
@@ -48,7 +43,6 @@ public class Paint {
                 (row, column) -> row >= height - column - 1 && row + height -1 >= column
         );
     }
-
     private String loopBy(int height, int weight, BiPredicate<Integer, Integer> predicate) {
         StringBuilder screen = new StringBuilder();
         for (int row = 0; row != height; row++) {

@@ -1,9 +1,7 @@
 package ru.job4j.array;
-
 import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
-
 /**
  * Testing class to remove duplicates.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).
@@ -11,7 +9,6 @@ import static org.junit.Assert.assertThat;
  * @since 15.10.2018.
  */
 public class ArrayDuplicateTest {
-
     @Test
     public void whenRemoveDuplicatesThenArrayWithoutDuplicate() {
         ArrayDuplicate duplicate = new ArrayDuplicate();
@@ -20,7 +17,6 @@ public class ArrayDuplicateTest {
         String[] excepted = {"tiger", "pet", "dog", "cat"};
         assertThat(result, is(excepted));
     }
-
     @Test
     public void whenRemove() {
         ArrayDuplicate duplicate = new ArrayDuplicate();

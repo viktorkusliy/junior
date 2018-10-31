@@ -1,5 +1,4 @@
 package ru.job4j.array;
-
 /**
  * Array reversal class.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).
@@ -7,7 +6,6 @@ package ru.job4j.array;
  * @since 10.10.2018.
  */
 public class Turn {
-
     /**
      * Method of inverting an array with an even and odd number of elements.
      * @param array The array that you want to flip.

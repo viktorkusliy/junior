@@ -1,5 +1,4 @@
 package ru.job4j.array;
-
 /**
  * Class to build multiplication tables using a two-dimensional array.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).

@@ -1,9 +1,7 @@
 package ru.job4j.array;
-
 import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
-
 /**
  * Testing a class to search for an element of an array by its index.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).
@@ -11,7 +9,6 @@ import static org.junit.Assert.assertThat;
  * @since 10.10.2018.
  */
 public class FindLoopTest {
-
     /**
      * Array element found.
      */
@@ -24,7 +21,6 @@ public class FindLoopTest {
         int expected = 0;
         assertThat(result, is(expected));
     }
-
     /**
      * Array element not found.
      */

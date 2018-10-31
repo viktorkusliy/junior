@@ -2,7 +2,6 @@ package ru.job4j.array;
 import org.junit.Test;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
-
 /**
  * Testing the array reversal class.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).
@@ -18,7 +17,6 @@ public class TurnTest {
         int[] expect = new int[]{2, 6, 1, 4};
         assertThat(result, is(expect));
     }
-
     @Test
     public void whenTurnArrayWithOddAmountOfElementsThenTurnedArray() {
         Turn turner = new Turn();

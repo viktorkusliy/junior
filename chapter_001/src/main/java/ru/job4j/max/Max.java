@@ -1,5 +1,4 @@
 package ru.job4j.max;
-
 /**
  * Finding the maximum of two numbers.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).
@@ -7,7 +6,6 @@ package ru.job4j.max;
  * @since 03.10.2018.
  */
 public class Max {
-
     /**
      * Method to find the maximum of two numbers.
      * @param first First number.
@@ -17,7 +15,6 @@ public class Max {
     public int max(int first, int second) {
         return first > second ? first : second;
     }
-
     /**
      * Method to find the maximum of three numbers.
      * @param first First number.
@@ -28,6 +25,4 @@ public class Max {
     public int max(int first, int second, int third) {
         return max(max(first, second), third);
     }
-
-
 }

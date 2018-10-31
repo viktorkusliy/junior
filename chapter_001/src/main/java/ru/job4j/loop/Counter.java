@@ -1,5 +1,4 @@
 package ru.job4j.loop;
-
 /**
  * Calculating the sum of even numbers in a given range.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).

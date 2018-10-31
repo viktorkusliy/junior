@@ -1,9 +1,7 @@
 package ru.job4j.array;
-
 import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
-
 /**
  * Class test for sorting an array of numbers using the bubble method.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).

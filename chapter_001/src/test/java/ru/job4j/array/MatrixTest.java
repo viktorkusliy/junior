@@ -1,9 +1,7 @@
 package ru.job4j.array;
-
 import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
-
 /**
  * Testing class to build multiplication tables.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).
@@ -11,7 +9,6 @@ import static org.junit.Assert.assertThat;
  * @since 13.10.2018.
  */
 public class MatrixTest {
-
     @Test
     public void when2on2() {
         Matrix matrix = new Matrix();

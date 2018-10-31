@@ -1,5 +1,4 @@
 package ru.job4j.array;
-
 /**
  * Class to sort an array of numbers.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).
@@ -7,7 +6,6 @@ package ru.job4j.array;
  * @since 12.10.2018.
  */
 public class BubbleSort {
-
     /**
      * Method for sorting an array of numbers using the bubble method.
      * @param data Array of numbers.

@@ -1,7 +1,5 @@
 package ru.job4j.array;
-
 import java.util.Arrays;
-
 /**
  * Class to remove duplicates.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).
@@ -9,7 +7,6 @@ import java.util.Arrays;
  * @since 15.10.2018.
  */
 public class ArrayDuplicate {
-
     /**
      * Method for finding and removing duplicate elements in an array.
      * @param array Array of elements in which you want to remove duplicates.

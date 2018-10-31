@@ -1,10 +1,8 @@
 package ru.job4j.loop;
-
 import org.junit.Test;
 import java.util.StringJoiner;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.*;
-
 /**
  * Test of building a pyramid of a given height.
  * @author Viktor Kusliy (mailto:viktor.kusliy@gmail.com).
@@ -27,7 +25,6 @@ public class PaintTest {
                 )
         );
     }
-
     @Test
     public void whenPyramid4Left() {
         Paint paint = new Paint();
@@ -43,7 +40,6 @@ public class PaintTest {
                 )
         );
     }
-
     @Test
     public void whenPyramid4() {
         Paint paint = new Paint();
