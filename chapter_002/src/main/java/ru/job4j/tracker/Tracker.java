@@ -50,6 +50,7 @@ public class Tracker {
                     System.arraycopy(this.items, i + 1, this.items, i, this.items.length - i - 1);
                     this.items[this.items.length - 1] = null;
                     result = true;
+                    position--;
                     break;
                 }
             }
